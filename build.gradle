@@ -1,6 +1,6 @@
 plugins {
 	id 'org.springframework.boot' version '2.5.4'
-	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'io.spring.dependency-management' version '4.2.1.3168'
 	id 'java'
 	id 'war'
 	id 'org.sonarqube' version '3.3'
@@ -28,7 +28,7 @@ test {
 
 sonarqube {
     properties {
-        property 'sonar.host.url', 'http://34.125.201.58:9000'
-        property 'sonar.login', '******'
+        property 'sonar.host.url', 'http://http://43.205.255.102/:9000'
+        property 'sonar.login', 'squ_2e2a3a23569cef80cb991f1879dbd9c0355b63a6'
     }
 }
